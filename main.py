@@ -99,7 +99,7 @@ class Quizstarter:
     self.quiz_instance.grid(row = 6, padx = 5, pady = 5)
 
     #Score label
-    self.score_label = Label(self.quiz_frame, text = "SCORE", font = ("Tw Cen MT", "16"), bg = background_color)
+    self.score_label = Label(self.quiz_frame, text = "Score", font = ("Tw Cen MT", "16"), bg = background_color)
     self.score_label.grid(row = 7, padx = 10, pady = 1)
 
 
